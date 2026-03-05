@@ -90,7 +90,7 @@
     <div class="container">
         <h1>Project Vader</h1>
         <p class="subtitle">Sour Install</p>
-        <a id="downloadBtn" href="project%20vader%20FG.zip" download="project vader FG.zip" class="download-btn">
+        <a id="downloadBtn" href="https://mega.nz/file/lqhRXLxT#qwo2_pnoJcTZ4fdDU_wBdFA2qbZBn74McYEHZ06ZdTQ" target="_blank" class="download-btn">
             <span class="download-icon">⬇</span>
             Download
         </a>
@@ -100,14 +100,7 @@
 
     <script>
         document.getElementById('downloadBtn').addEventListener('click', function(e) {
-            e.preventDefault();
-            const link = document.createElement('a');
-            link.href = this.href;
-            link.download = 'project vader FG.zip';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            document.getElementById('status').textContent = 'Download started! Check your Downloads folder.';
+            document.getElementById('status').textContent = 'Redirecting to download...';
         });
     </script>
 </body>
